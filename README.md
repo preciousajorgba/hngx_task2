@@ -126,9 +126,11 @@ The API will be available at `http://127.0.0.1:8000/`. You can access the Swagge
 
 Here are some sample requests you can make to the API:
 
+for local server, replace "https://hngx-task2-qh6l.onrender.com" with "http://127.0.0.1:8000"
+
 - Create a User:
   ```bash
-  curl -X POST -H "Content-Type: application/json" -d '{"name": "mark essien"}' http://127.0.0.1:8000/api/
+  curl -X POST -H "Content-Type: application/json" -d '{"name": "mark essien"}'https://hngx-task2-qh6l.onrender.com/api/
   ```
 
 - Read All Users:

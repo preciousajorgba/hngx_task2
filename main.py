@@ -33,7 +33,7 @@ def create_user(user: UserCreate, db: Session = Depends(get_db)):
     return db_user
 
 # Read all users
-@app.get("/api/", response_model=list[UserResponse])
+@app.get("/api/", response_model=List[UserResponse])
 def read_all_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     users = db.query(User).offset(skip).limit(limit).all()
     return users

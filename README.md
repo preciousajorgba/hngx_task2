@@ -130,27 +130,27 @@ Here are some sample requests you can make to the API:
 
 - Create a User:
   ```bash
-  curl -X POST -H "Content-Type: application/json" -d '{"name": "mark essien"}'https://hngx-task2-qh6l.onrender.com/api/
+  curl -X POST -H "Content-Type: application/json" -d '{"name": "mark essien"}' https://hngx-task2-qh6l.onrender.com/api/
   ```
 
 - Read All Users:
   ```bash
-  curl http://127.0.0.1:8000/api/
+  curl https://hngx-task2-qh6l.onrender.com/api/
   ```
 
 - Read a User by ID:
   ```bash
-  curl http://127.0.0.1:8000/api/1/
+  curl https://hngx-task2-qh6l.onrender.com/api/1/
   ```
 
 - Update a User by ID:
   ```bash
-  curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Name"}' http://127.0.0.1:8000/api/1/
+  curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Name"}' https://hngx-task2-qh6l.onrender.com/api/1/
   ```
 
 - Delete a User by ID:
   ```bash
-  curl -X DELETE http://127.0.0.1:8000/api/1/
+  curl -X DELETE https://hngx-task2-qh6l.onrender.com/api/1/
   ```
 
 ## Known Limitations
